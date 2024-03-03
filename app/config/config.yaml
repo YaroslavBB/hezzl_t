@@ -1,0 +1,21 @@
+server:
+  ip: 127.0.0.1 
+  port: 8080 
+db:
+  host: 127.0.0.1 
+  port: 5432 
+  user: postgres
+  password: password 
+  name: postgres 
+redis:
+  host: 127.0.0.1 
+  port: 6379
+nats:
+  host: 127.0.0.1 
+  port: 4222
+clickhouse:
+  host: 127.0.0.1 
+  port: 9000
+  user: default
+  password: password
+  database: default
